@@ -6,5 +6,6 @@ module.exports = {
   preset: 'ts-jest',
   moduleDirectories: [
     "app/javascript","node_modules"
-  ]
+  ], 
+  roots: ["app/javascript"]
 };
